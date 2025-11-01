@@ -172,4 +172,4 @@ mv mv killer_mortal_gui killerducky
 ```
 
 ## 最終方法
-http://<Your IP or Your Hostname>/topにアクセスし、トップページが表示されることを確認する
+「http://Your IP or Your Hostname/top」にアクセスし、トップページが表示されることを確認する
