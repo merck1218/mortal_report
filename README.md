@@ -31,7 +31,7 @@ Nginxインストール
 dnf -y install nginx
 ```
 
-Nginx設定(location部分を書き換える)
+Nginx設定(root部分とlocation部分を書き換える)
 ```bash
 vi /etc/nginx/nginx.conf
 server {
