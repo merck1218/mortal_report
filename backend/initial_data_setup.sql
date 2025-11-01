@@ -30,7 +30,7 @@ create table statistics (
 );
 
 create table settings (
-    id integer primary key,
+    id serial,
     item text,
     explain text,
     value integer,
