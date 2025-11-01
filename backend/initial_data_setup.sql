@@ -24,7 +24,8 @@ create table statistics (
     match_rate double precision,
     bad_rate double precision,
     dealin_count integer,
-    dealin_shanten integer default false,
+    dealin_shanten integer,
+    delete_flg boolean default false,
     created_at timestamp default CURRENT_TIMESTAMP
 );
 
@@ -33,7 +34,7 @@ create table settings (
     item text,
     explain text,
     value integer,
-    created_at default CURRENT_TIMESTAMP
+    created_at timestamp default CURRENT_TIMESTAMP
 );
 
 insert into settings (
