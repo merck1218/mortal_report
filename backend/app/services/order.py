@@ -67,7 +67,7 @@ def create_statistics_function(json_path):
     # プレイヤーの開始位置関数
     def player_number_function():
         # プレイヤーID取得
-        actor_id = json_load['review']['kyokus'][0]['entries'][0]['details'][0]['action']['actor']
+        actor_id = json_load['review']['kyokus'][0]['entries'][0]['actual']['actor']
         
         # 結果返却
         return actor_id
